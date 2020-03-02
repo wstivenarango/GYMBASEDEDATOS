@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+
+        <title> GIMNASIO VIRTUAL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type = "text/javascript" src="Script\java.js"></script>
+
+
+    </head>
+    <body background= "imagenes\fz.jpg" >
+        <link rel= "stylesheet" type ="text/css" href="Estilos\estilos.css">
+        <form action="Principal" method="get">
+            <table>
+                <tr>
+                    <td colspan="3">
+                        <h3>BIENVENIDO A TU GIMNASIO VIRTUAL, POR FAVOR LLENA EL SIGUIENTE FORMULARIO PARA GENERAR TU RUTINA ADECUADA Y OBTENER LA MEJOR EXPERIENCIA </h3></td>
+                </tr>
+                <tr>	
+                    <td><h3>NOMBRE</h3></td>
+
+                    <td><input type="text" id="nombre" name="nombre"></input></td>
+                </tr>
+                <tr>
+                    <td><h3>Peso</h3></td>
+                    <td><input type="number" id="peso" name="peso"></input></td>
+                </tr>
+                <tr>
+                    <td><h3>Estatura</h3></td>
+                    <td><input type="number" id="estatura" name="estatura"></input></td>
+
+                </tr>
+                <tr>
+                    <td><h3>Objetivo</h3></td>
+                    <td><select id="objetivo" name="objetivo"><option>Bajar de peso</option>
+                            <option>Aumentar masa muscular</option>
+                            <option>Tonificar</option></select></td>
+                </tr>
+                 <tr>
+                    <td colspan="5" class="links"> <a href="insertar_contacto.jsp">Agregar</a></td>
+            </tr>
+            </table>
+            
+        </form>
+    </body>
+</html>
